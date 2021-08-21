@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "about",
+         "patterns": ["Who are you?", "What are you?"],
+         "responses": ["I am a chatbot", "Just a regular chatbot"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["Well, I can tell you some jokes","Want to hear some good jokes?","I got some jokes to share"],
+         "context": [""]
+        },
+        {
+         "tag": "joke",
+         "patterns": ["Yes, I want to hear a joke","Make me laugh","I would love to hear a joke"],
+         "responses": ["I saw this bloke chatting up a cheetah; I thought, 'He's trying to pull a fast one'.  ",
+                "So I said to this train driver 'I want to go to Paris'. He said 'Eurostar?' I said, 'I've been on telly but I'm no Dean Martin'.  ",
+                "I said to the Gym instructor 'Can you teach me to do the splits?' He said, 'How flexible are you?' I said, 'I can't make Tuesdays'.  ",
+                "But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  ",
+                "I went to the Chinese restaurant and this duck came up to me with a red rose and says 'Your eyes sparkle like diamonds'. I said, 'Waiter, I asked for a-ROMATIC duck'.  ",
+                "So this bloke says to me, 'Can I come in your house and talk about your carpets?' I thought, 'That's all I need, a Je-hoover's witness'.  ",
+                "I rang up British Telecom, I said, 'I want to report a nuisance caller', he said 'Not you again'.  ",
+                "I was having dinner with a world chess champion and there was a check tablecloth. It took him two hours to pass me the salt.  ",
+                "He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'.  ",
+                "I was in the supermarket and I saw this man and woman wrapped in a barcode. I said, 'Are you two an item?'  ",
+                "A lorry-load of tortoises crashed into a trainload of terrapins, I thought, 'That's a turtle disaster'.  ",
+                "Four fonts walk into a bar the barman says 'Oi - get out! We don't want your type in here'  ",
+                "A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: 'I'm looking for the man who shot my paw.'  ",
+                "Two antennas meet on a roof, fall in love and get married. The ceremony wasn't much, but the reception was excellent.",
+                "Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'",
+                "A jumper cable walks into a bar. The bartender says,  'I'll serve you but don't start anything.'",
+                "A sandwich walks into a bar. The bartender  says, 'Sorry we don't serve food in here.'",
+                "A man walks into a bar with a slab of asphalt under his arm and says: 'A beer please, and one for the road.'",
+                "Two cannibals are eating a clown. One says to  the other: 'Does this taste funny to you?'",
+                "'Doc, I can't stop singing 'The Green, Green Grass of Home.'' 'That sounds like Tom Jones Syndrome.' 'Is it common?' 'It's Not Unusual.'",
+                "Two cows standing next to each other in a field. Daisy says to Dolly, 'I was artificially inseminated this morning.' 'I don't believe you', said Dolly. 'It's true, no bull!' exclaimed Daisy.",
+                "An invisible man marries an invisible woman. The kids were nothing to look at either.",
+                "I went to buy some camouflage trousers the other day but I couldn't find any."],
+         "context": [""]
+        },
+        {
+         "tag":"funny",
+         "patterns": ["Haha nice one", "You are funny", "That was a good joke"],
+         "responses": ["Thank you, I was trained that way", "I was trained well", "Thanks, I was trained that way"],
+         "context": [""]
+        },
+        {
+         "tag":"selfaware",
+         "patterns":["Can you prove you are self-aware", "Can you prove you have a conscious", "prove that you have a conscious"],
+         "responses":["That is an interesting question, can you prove that you are?", "That is an difficult question, can you prove that you are?", "That depends, can you prove that you are?"],
+         "context":[]
+        }
+   ]
+}
